@@ -2,13 +2,13 @@ package = "kong-plugin-nevavalidator"
 version = "1.0.1-0"
 supported_platforms = {"linux", "macosx"}
 source = {
-  url = "..."
+  url = "https://github.com/pindipoluravikumar/kong-plugin-nevavalidator.git"
 }
 description = {
   summary = "Kong Plugin for validating the neva request"  
 }
 dependencies = {
-  "lua ~> 5.1"
+  "lua >= 5.1"
 }
 build = {
   type = "builtin",
